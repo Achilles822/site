@@ -14,6 +14,9 @@ importers:
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
+      js-yaml:
+        specifier: ^5.5.0
+        version: 5.5.0
       next:
         specifier: ^16.4.6
         version: 16.4.6(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -572,6 +575,9 @@ packages:
   argparse@1.0.10:
     resolution: {integrity: sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE=, tarball: https://registry.npm.wps.cn/argparse/download/argparse-1.0.10.tgz}
 
+  argparse@3.0.4:
+    resolution: {integrity: sha1-uoAt11/cPVvctDObcT1ixsXUVl0=, tarball: https://registry.npm.wps.cn/argparse/download/argparse-3.0.4.tgz}
+
   assertion-error@2.0.1:
     resolution: {integrity: sha1-9kGhlrM1aQsQcL8AtudZP+wZC/c=, tarball: https://registry.npm.wps.cn/assertion-error/download/assertion-error-2.0.1.tgz}
     engines: {node: '>=12'}
@@ -719,6 +725,10 @@ packages:
 
   js-yaml@3.15.2:
     resolution: {integrity: sha1-P4OCOsa+F/Vw8jsuze83d/9eo2Q=, tarball: https://registry.npm.wps.cn/js-yaml/download/js-yaml-3.15.2.tgz}
+    hasBin: true
+
+  js-yaml@5.5.0:
+    resolution: {integrity: sha1-7IQ/Cf+ypUtnWKQe7hCaGBXRZEI=, tarball: https://registry.npm.wps.cn/js-yaml/download/js-yaml-5.5.0.tgz}
     hasBin: true
 
   kind-of@6.0.3:
@@ -1578,6 +1588,8 @@ snapshots:
     dependencies:
       sprintf-js: 1.0.3
 
+  argparse@3.0.4: {}
+
   assertion-error@2.0.1: {}
 
   bail@2.0.2: {}
@@ -1701,6 +1713,10 @@ snapshots:
     dependencies:
       argparse: 1.0.10
       esprima: 4.0.1
+
+  js-yaml@5.5.0:
+    dependencies:
+      argparse: 3.0.4
 
   kind-of@6.0.3: {}
 
