@@ -16,7 +16,7 @@
 - 置顶在最前。置顶之间、未置顶之间都按日期从新到旧。日期相同按 slug 升序。
 - `※` 只出现在首页卡片的日期前面。
 - 日期显示为 `2026年11月25日` 这种不补零的中文格式。
-- 站名常量是 `笔记`，放在 `lib/site.ts` 的 `siteName`。顶栏和浏览器标题都用它。
+- 站名常量是 `EmptySet Software`，放在 `lib/site.ts` 的 `siteName`。顶栏和浏览器标题都用它。页脚英文名为 `siteNameEn`（EmptySet Software）。
 
 ## 字体
 

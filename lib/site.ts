@@ -1,4 +1,6 @@
-export const siteName = "笔记"
+export const siteName = "EmptySet Software"
+
+export const siteNameEn = "EmptySet Software"
 
 export function withBase(path: string): string {
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? ""

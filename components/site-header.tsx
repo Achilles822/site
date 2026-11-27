@@ -1,3 +1,5 @@
+import { SiteNav } from "@/components/site-nav"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { siteName, withBase } from "@/lib/site"
 
 export function SiteHeader() {
@@ -6,9 +8,10 @@ export function SiteHeader() {
       <a className="site-name serif" href={withBase("/")}>
         {siteName}
       </a>
-      <a className="nav-link" href={withBase("/about/")}>
-        关于我
-      </a>
+      <div className="header-actions">
+        <SiteNav />
+        <ThemeToggle />
+      </div>
     </header>
   )
 }

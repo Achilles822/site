@@ -9,8 +9,8 @@ afterEach(() => {
 })
 
 describe("site", () => {
-  it("站名是笔记", () => {
-    expect(siteName).toBe("笔记")
+  it("站名是 EmptySet Software", () => {
+    expect(siteName).toBe("EmptySet Software")
   })
 
   it("给绝对路径加上 Pages 前缀，本地前缀为空", () => {
